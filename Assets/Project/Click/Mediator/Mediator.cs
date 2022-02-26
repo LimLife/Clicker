@@ -4,10 +4,10 @@ public class Mediator :IMediator
     public IEntity _uiHandler { get; set; }
     public IEntity _gameHamdler { get; set; }
 
-    public void Init(UIHandler uI, GameSystemHandler game)
+    public void Init(UIHandler uI)
     {
         _uiHandler = uI;
-        _gameHamdler = game;
+      //  _gameHamdler = game;
 
     }
     public void Send(IEntity entity,in ClickData data) //Game===>UI

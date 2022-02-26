@@ -64,12 +64,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Project\Click\BuffSystem\BuffSystem.cs" />
-    <Compile Include="Assets\Project\Click\ClickView\ClickInput.cs" />
-    <Compile Include="Assets\Project\Click\ClickView\View.cs" />
-    <Compile Include="Assets\Project\Click\ClickView\ViewHanndler.cs" />
+    <Compile Include="Assets\Project\Click\DataSystems\DataSystem.cs" />
+    <Compile Include="Assets\Project\Click\EventSystem\IEventSystem.cs" />
+    <Compile Include="Assets\Project\Click\EventSystem\Scoring\Score.cs" />
+    <Compile Include="Assets\Project\Click\EventSystem\Scoring\Scoring.cs" />
     <Compile Include="Assets\Project\Click\GameStart\Game.cs" />
-    <Compile Include="Assets\Project\Click\GameSystemHandler.cs" />
+    <Compile Include="Assets\Project\Click\InitSystem\Spawn\PoolObjectAutoExpand\Pool.cs" />
+    <Compile Include="Assets\Project\Click\InitSystem\Spawn\PoolObjectAutoExpand\PoolObject.cs" />
+    <Compile Include="Assets\Project\Click\InitSystem\Spawn\Spawner.cs" />
     <Compile Include="Assets\Project\Click\Item\Boomb.cs" />
     <Compile Include="Assets\Project\Click\Item\Click.cs" />
     <Compile Include="Assets\Project\Click\Item\ClickData.cs" />
@@ -79,28 +81,32 @@
     <Compile Include="Assets\Project\Click\Mediator\IEntity.cs" />
     <Compile Include="Assets\Project\Click\Mediator\IMediator.cs" />
     <Compile Include="Assets\Project\Click\Mediator\Mediator.cs" />
-    <Compile Include="Assets\Project\Click\PoolObjectAutoExpand\Pool.cs" />
-    <Compile Include="Assets\Project\Click\PoolObjectAutoExpand\PoolObject.cs" />
     <Compile Include="Assets\Project\Click\Rank.cs" />
-    <Compile Include="Assets\Project\Click\Spawn\Spawner.cs" />
+    <Compile Include="Assets\Project\Click\SystemRegestartion\CoreGame.cs" />
+    <Compile Include="Assets\Project\Click\SystemRegestartion\IInitSystem.cs" />
+    <Compile Include="Assets\Project\Click\SystemRegestartion\RegestrationSystem.cs" />
+    <Compile Include="Assets\Project\Click\SystemsUpdate\FindeObjects\FindObject.cs" />
+    <Compile Include="Assets\Project\Click\SystemsUpdate\ISystem.cs" />
+    <Compile Include="Assets\Project\Click\SystemsUpdate\ImputClick\ClickInput.cs" />
+    <Compile Include="Assets\Project\Click\SystemsUpdate\ScoreView.cs" />
+    <Compile Include="Assets\Project\Click\SystemsUpdate\Timer\GameTimeUI.cs" />
+    <Compile Include="Assets\Project\Click\SystemsUpdate\Timer\ViewUIGame.cs" />
+    <Compile Include="Assets\Project\Click\View\TimeUIGame.cs" />
     <Compile Include="Assets\Project\ConfigData\Config.cs" />
-    <Compile Include="Assets\Project\ConfigData\Data.cs" />
+    <Compile Include="Assets\Project\ConfigData\GameTime.cs" />
     <Compile Include="Assets\Project\ConfigData\PrefabDate.cs" />
     <Compile Include="Assets\Project\ConfigData\StringTag.cs" />
-    <Compile Include="Assets\Project\DataExampel\DataBase.cs" />
-    <Compile Include="Assets\Project\DataExampel\DataController.cs" />
     <Compile Include="Assets\Project\ForStartScene\LoadGameScane.cs" />
     <Compile Include="Assets\Project\ForStartScene\RankView.cs" />
-    <Compile Include="Assets\Project\GameState\GameTime.cs" />
     <Compile Include="Assets\Project\Instance.cs" />
-    <Compile Include="Assets\Project\UI\BuffUI\BuffUI.cs" />
+    <Compile Include="Assets\Project\SaveAndLoadData\DataBase.cs" />
+    <Compile Include="Assets\Project\SaveAndLoadData\DataController.cs" />
+    <Compile Include="Assets\Project\UI\ButtonsElement\StateGameUI\Blocker.cs" />
+    <Compile Include="Assets\Project\UI\ButtonsElement\StateGameUI\MainMenu.cs" />
+    <Compile Include="Assets\Project\UI\ButtonsElement\StateGameUI\Pause.cs" />
+    <Compile Include="Assets\Project\UI\ButtonsElement\StateGameUI\Restart.cs" />
+    <Compile Include="Assets\Project\UI\ButtonsElement\StateGameUI\StartGame.cs" />
     <Compile Include="Assets\Project\UI\SceneUI\SceneUI.cs" />
-    <Compile Include="Assets\Project\UI\Socre\Score.cs" />
-    <Compile Include="Assets\Project\UI\Socre\StateGameUI\Blocker.cs" />
-    <Compile Include="Assets\Project\UI\Socre\StateGameUI\MainMenu.cs" />
-    <Compile Include="Assets\Project\UI\Socre\StateGameUI\Pause.cs" />
-    <Compile Include="Assets\Project\UI\Socre\StateGameUI\Restart.cs" />
-    <Compile Include="Assets\Project\UI\Socre\StateGameUI\StartGame.cs" />
     <Compile Include="Assets\Project\UI\UIHandler.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
