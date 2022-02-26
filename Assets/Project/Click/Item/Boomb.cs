@@ -17,8 +17,7 @@ public class Boomb : Item
  
     public override void Clicking()
     {
-        gameObject.SetActive(false);     
-       
+        gameObject.SetActive(false);           
     }
 
     public override void Set(float score, float lifeTime)
